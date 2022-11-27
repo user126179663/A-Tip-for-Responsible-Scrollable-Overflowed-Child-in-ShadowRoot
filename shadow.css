@@ -1,0 +1,33 @@
+section {
+	
+	color: white;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	
+}
+header, footer {
+	height: calc(100% / 3);
+}
+header {
+	background-color: red;
+}
+header::before {
+	content: "shadow-header";
+}
+footer {
+	background-color: blue;
+}
+footer::before {
+	content: "shadow-footer";
+}
+
+article {
+	border: 1px solid white;
+	flex: 1 0 auto;
+	overflow: auto;
+}
+article * {
+	background: linear-gradient(transparent, white);
+	height: 300%;
+}
