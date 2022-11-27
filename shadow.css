@@ -25,7 +25,7 @@ article {
 	overflow: auto;
 }
 article::before {
-	content: "Content Wrapper: is responsible and scrollable."
+	content: "content wrapper: is responsible and scrollable."
 }
 article * {
 	background: linear-gradient(transparent, white);
@@ -33,5 +33,5 @@ article * {
 	height: 300%;
 }
 article ::before {
-	content: "Content: has fixed height."
+	content: "content: has fixed height."
 }
