@@ -14,25 +14,22 @@ section {
 	height: 100%;
 }
 
-header, footer {
-	height: calc(100% / 3);
-}
 header {
 	background-color: red;
 }
 header::before {
-	content: "host-header";
+	content: "host-header: is responsible.";
 }
 footer {
 	background-color: blue;
 }
 footer::before {
-	content: "host-footer";
+	content: "host-footer: is responsible.";
 }
 
 custom-element {
 	background-color: green;
-	border: 1px solid white;
+	border: 1px solid black;
 	flex: 1 0 auto;
 	overflow: auto;
 }

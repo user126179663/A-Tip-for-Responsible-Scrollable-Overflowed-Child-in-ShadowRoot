@@ -6,20 +6,17 @@ section {
 	height: 100%;
 	
 }
-header, footer {
-	height: calc(100% / 3);
-}
 header {
 	background-color: red;
 }
 header::before {
-	content: "shadow-header";
+	content: "shadow-header: is responsible.";
 }
 footer {
 	background-color: blue;
 }
 footer::before {
-	content: "shadow-footer";
+	content: "shadow-footer: is responsible.";
 }
 
 article {
@@ -27,7 +24,14 @@ article {
 	flex: 1 0 auto;
 	overflow: auto;
 }
+article::before {
+	content: "Content Wrapper: is responsible and scrollable."
+}
 article * {
 	background: linear-gradient(transparent, white);
+	border: 1px solid yellow;
 	height: 300%;
+}
+article ::before {
+	content: "Content: has fixed height."
 }
