@@ -21,7 +21,7 @@ footer::before {
 
 article {
 	border: 1px solid white;
-	flex: 1 0 auto;
+	flex: 1 0;
 	overflow: auto;
 }
 article::before {

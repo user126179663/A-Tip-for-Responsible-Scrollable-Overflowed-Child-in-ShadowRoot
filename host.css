@@ -30,6 +30,6 @@ footer::before {
 custom-element {
 	background-color: green;
 	border: 1px solid black;
-	flex: 1 0 auto;
+	flex: 1 0;
 	overflow: auto;
 }
